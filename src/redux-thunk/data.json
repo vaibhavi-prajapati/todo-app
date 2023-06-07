@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Vaibhavi",
+    "todos": [
+      {
+        "title": "Buy Apples",
+        "description": "Buy Apples",
+        "currentdate": "20230606180000"
+      },
+      {
+        "title": "Drop brother to school",
+        "description": "Drop brother to school",
+        "currentdate": "20230606170000"
+      }
+    ]
+  },
+  {
+    "name": "ABC",
+    "todos": [
+      {
+        "title": "Buy Apples",
+        "description": "Buy Apples",
+        "currentdate": "20230606180000"
+      },
+      {
+        "title": "Drop brother to school",
+        "description": "Drop brother to school",
+        "currentdate": "20230606170000"
+      }
+    ]
+  },
+  {
+    "name": "XYZ",
+    "todos": [
+      {
+        "title": "Buy Apples",
+        "description": "Buy Apples",
+        "currentdate": "20230606180000"
+      },
+      {
+        "title": "Drop brother to school",
+        "description": "Drop brother to school",
+        "currentdate": "20230606170000"
+      }
+    ]
+  }
+]
