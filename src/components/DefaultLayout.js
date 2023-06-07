@@ -18,7 +18,7 @@ class DefaultLayout extends React.Component {
                 <nav className="navbar navbar-inverse" style={{ backgroundColor: "#e3f2fd" }}>
                     <div className="container-fluid">
                         <div className="navbar-header">
-                            <a className="navbar-brand" href="#">Todo App</a>
+                            <a className="navbar-brand" href="/">Todo App</a>
                         </div>
                         <ul className="nav navbar-nav navbar-right">
                             <li>{this.props.isLoggedIn &&

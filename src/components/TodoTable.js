@@ -49,7 +49,7 @@ class TodoTable extends React.Component {
 
                     <tbody>
                         {this.props.todos.map(({ title, description, currentdate }, index) => (
-                            this.state.editIndex != index ? (
+                            this.state.editIndex !== index ? (
                                 <tr key={index}>
                                     <td>{title}</td>
                                     <td>{description}</td>

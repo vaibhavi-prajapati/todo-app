@@ -4,7 +4,7 @@
     "todos": [
       {
         "title": "Buy Apples",
-        "description": "Buy Apples",
+        "description": "Buy 2kg Apples",
         "currentdate": "20230606180000"
       },
       {
@@ -15,31 +15,31 @@
     ]
   },
   {
-    "name": "ABC",
+    "name": "Divya",
     "todos": [
       {
-        "title": "Buy Apples",
-        "description": "Buy Apples",
+        "title": "Travel to city",
+        "description": "Gandhinagar",
         "currentdate": "20230606180000"
       },
       {
-        "title": "Drop brother to school",
-        "description": "Drop brother to school",
+        "title": "Drop brother to college",
+        "description": "Drop brother to college",
         "currentdate": "20230606170000"
       }
     ]
   },
   {
-    "name": "XYZ",
+    "name": "Sejal",
     "todos": [
       {
-        "title": "Buy Apples",
-        "description": "Buy Apples",
+        "title": "Buy Grapes",
+        "description": "Buy 1kg Grapes",
         "currentdate": "20230606180000"
       },
       {
-        "title": "Drop brother to school",
-        "description": "Drop brother to school",
+        "title": "Buy watch",
+        "description": "Buy Samsung watch",
         "currentdate": "20230606170000"
       }
     ]

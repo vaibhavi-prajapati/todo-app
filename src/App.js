@@ -4,14 +4,12 @@ import Login from "./components/Login";
 import Home from "./components/Home";
 import AddTodo from "./components/AddTodo";
 import "bootstrap/dist/css/bootstrap.css";
-// import "font-awesome/css/font-awesome.min.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import history from './history';
 import DefaultLayout from "./components/DefaultLayout";
 
 class App extends Component {
   getUser = () => {
-    if (sessionStorage.getItem("user") || window.location.pathname == "/") {
+    if (sessionStorage.getItem("user") || window.location.pathname === "/") {
     } else {
       window.location.href = "/"
     }
@@ -21,8 +19,7 @@ class App extends Component {
   }
   render() {
     return (
-      // <div className="text-center">
-      <BrowserRouter history={history}>
+      <BrowserRouter>
         <DefaultLayout />
         <Routes>
           <Route exact path="/home" element={<Home />} />
@@ -30,7 +27,6 @@ class App extends Component {
           <Route exact path="/" element={<Login />} />
         </Routes>
       </BrowserRouter>
-      // </div>
     );
   }
 }
